@@ -1,0 +1,122 @@
+.noScroll{
+    overflow:hidden;
+}
+.resalt{
+    font-weight: 500;
+    color: var(--color-primary);
+}
+.modalProject{
+    width: 60vw;
+    height: 25rem;
+   
+    padding: 2rem;
+    border-radius: 1px;
+    background: #070417 ;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1.5rem;
+}
+.experience_note{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 0.5rem;
+   
+ }
+ .modalContainer {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: var(--color-primary-varient); /*rgba(0, 0, 0, 0.35);*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+ .noScroll {
+     overflow:hidden;
+ }
+ 
+ .modalCreate { 
+   
+     width: 40vw;
+     height: 25rem;
+    
+     padding: 2rem;
+     border-radius: 1px;
+     background-color:  #21013ff5; /* rgba(255, 255, 255, 0.35);*/
+     backdrop-filter: blur(3px);
+     box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.2);
+ }
+ .modal {
+    
+     width: 60vw;
+     height: 20rem;
+    
+     padding: 2rem;
+     border-radius: 1px;
+     background: #070417 ;
+     backdrop-filter: blur(3px);
+     box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.2);
+     border-radius: 1.5rem;
+ }
+ .modal_header {
+     position: relative;
+     border-bottom: 1px solid #ddd;
+ }
+ .modal_header_title {
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 400;
+     color:var(--color-primary);
+ 
+ }
+ 
+  .close {
+     position: absolute;
+     top: 0;
+     right: 0;
+     color: white;
+     background: transparent;
+     font-size: 1rem;
+     cursor: pointer;
+ 
+ }
+ .close:hover{
+     color: var(--color-primary);
+     font-size: 1.1rem;
+ }
+ .close img {
+     width: 1rem;
+     height: auto;
+     transition: all 0.3s;
+     
+ }
+ 
+ .close:hover img {
+     transform: scale(1.1);
+    
+ }
+ .modal_content_items  {
+     display:flex;
+     flex-direction: column;
+     
+     
+ 
+ }
+ .modal_content {
+    
+     display: flex;                 
+     flex-direction: row;            
+     flex-wrap: nowrap;              
+     justify-content: space-between; 
+     border-bottom: 2px solid #ddd;
+     padding: 2rem 0;
+     width:100%;
+     height:0.1rem;
+     
+ }
+ 
