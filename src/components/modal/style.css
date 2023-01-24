@@ -119,4 +119,43 @@
      height:0.1rem;
      
  }
+
  
+ @media screen and (max-width:1024px ){
+    .modal {
+    
+        width: 60vw;
+        height: 26rem;
+        padding: 3rem;
+        border-radius: 1px;
+        background: #070417 ;
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.2);
+        border-radius: 1.5rem;
+    }
+    .experience_note{
+        padding-top:0.5rem;
+        font-size:1rem;
+       
+    }
+ }
+ 
+
+ @media screen and (max-width:600px ){
+    .modal {
+    
+        width: 60vw;
+        height: 30rem;
+        padding: 1rem;
+        border-radius: 1px;
+        background: #070417 ;
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0 0.1rem 0 rgba(0, 0, 0, 0.2);
+        border-radius: 1.5rem;
+    }
+    .experience_note{
+        padding-top:0.5rem;
+        font-size:0.7rem;
+       
+    }
+ }
