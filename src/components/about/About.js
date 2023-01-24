@@ -49,7 +49,7 @@ const toogleModalProject = ()=>{
           <article className='about__card' onClick={()=>toogleModalStudy()}>
                     <SiLibreoffice/>
                     <h5>Estudios</h5>
-                    <small >200+ worlWide</small>
+                    <small >3+ worlWide</small>
                     <ModalEstudy show={modalEstudy} close={toogleModalStudy}/>
           </article>
           <article onClick={()=>toogleModalProject()} className='about__card'> 
