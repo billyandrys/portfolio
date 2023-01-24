@@ -14,7 +14,7 @@ const Tecnology = () => {
             <h3>Clean</h3>
             <div className='portfolio__item-cta'> 
               <a href='https://github.com/billyandrys' className='btn'>Github</a>
-              <a href='http://cclean.github.io/' target='_blank' className='btn'>live Demo</a>
+              <a href='http://cclean.github.io/' target='_blank' rel='noopener noreferrer' className='btn'>live Demo</a>
             </div>
          </article>
          <article className='portfolio__item'>
@@ -24,7 +24,7 @@ const Tecnology = () => {
             <h3>Henry Dogs</h3>
             <div className='portfolio__item-cta'> 
               <a href='https://github.com/billyandrys/clientdogs' className='btn'>Github</a>
-              <a href='https://iridescent-youtiao-b25959.netlify.app/' target='_blank' className='btn'>live Demo</a>
+              <a href='https://iridescent-youtiao-b25959.netlify.app/' target='_blank'  rel='noopener noreferrer' className='btn'>live Demo</a>
             </div>
          </article>
          <article className='portfolio__item'>
@@ -34,7 +34,7 @@ const Tecnology = () => {
             <h3>titulo de portfolio</h3>
             <div className='portfolio__item-cta'> 
               <a href='https://github.com/billyandrys/apidogs' className='btn'>Github</a>
-              <a href='https://apidogs-production.up.railway.app/dogs' target='_blank' className='btn'>live Demo</a>
+              <a href='https://apidogs-production.up.railway.app/dogs' target='_blank' rel='noopener noreferrer' className='btn'>live Demo</a>
             </div>
          </article>
 

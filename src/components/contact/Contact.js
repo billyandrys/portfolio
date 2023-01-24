@@ -29,21 +29,21 @@ const Contact = () => {
           <AiOutlineMail/>
           <h4>Email</h4>
           <h5>billyAndrys@gmail.com</h5>
-          <a href='mailto:billyandrys@gmail.com' target='_blank'>Envíame un mensaje</a>
+          <a href='mailto:billyandrys@gmail.com' target='_blank' rel='noopener noreferrer'>Envíame un mensaje</a>
           </article>
 
           <article className='contact__option'>
           <BsMessenger/>
           <h4>Messenger</h4>
           <h5>Billy Andrys</h5>
-          <a href='https://m.me/BillyAndrys/' target='_blank'>Envíame un mensaje</a>
+          <a href='https://m.me/BillyAndrys/' target='_blank' rel='noopener noreferrer'>Envíame un mensaje</a>
           </article>
 
           <article className='contact__option'>
           <BsWhatsapp/>
           <h4>Whatsapp</h4>
           <h5>Chatea en WhatsApp</h5>
-          <a href='https://api.whatsapp.com/send?phone=573016781946' target='_blank'>Envíame un mensaje</a>
+          <a href='https://api.whatsapp.com/send?phone=573016781946' target='_blank' rel='noopener noreferrer'>Envíame un mensaje</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
