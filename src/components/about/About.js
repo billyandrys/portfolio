@@ -3,8 +3,7 @@ import me from '../../assets/perfilPortfolioB.png'
 import { BsAward }  from 'react-icons/bs'
 import { GoProject } from 'react-icons/go'
 import { SiLibreoffice } from 'react-icons/si'
-import Typed from "typed.js";
-import { useEffect, useRef, useState } from "react";
+import {  useState } from "react";
 import Modal from '../modal/Modal'
 import ModalEstudy from '../modal/ModalEstudy'
 import ModalProjects from '../modal/ModalProjects'
